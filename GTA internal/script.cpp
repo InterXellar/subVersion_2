@@ -643,7 +643,7 @@ namespace script
 
 	void	show_ingame_keyboard(char* title, char* default_text)
 	{
-		CHooking::display_onscreen_keyboard(true, (title == nullptr ? "subVersion" : title), "", (default_text == nullptr ? "" : default_text), "", "", "", 64);
+		CHooking::display_onscreen_keyboard(true, (title == nullptr ? "Sapphire Menu" : title), "", (default_text == nullptr ? "" : default_text), "", "", "", 64);
 	}
 
 	bool	get_ingame_keyboard_result(std::string& str)

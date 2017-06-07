@@ -19,7 +19,7 @@
 
 #include "stdafx.h"
 
-const char	g_szVersion[]	= "1.1.0";
+const char	g_szVersion[]	= "0.1";
 
 //handles
 HMODULE		g_hModule;
@@ -71,7 +71,7 @@ DWORD __stdcall mainThread(LPVOID lpParam)
 
 	//init renderer
 	char msg[0xFF]	= {};
-	sprintf_s(msg, "subVersion %s | by sub1to", g_szVersion);
+	sprintf_s(msg, "Sapphire Menu %s | by Xellar", g_szVersion);
 	CRender::initialze(g_hModule, msg);
 
 	//init hooking

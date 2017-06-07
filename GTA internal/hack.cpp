@@ -146,8 +146,8 @@ bool	CHack::refresh()
 		float	invMod		= 1.f - mod;
 		BYTE	 opacity	= (BYTE) (invMod * 0xFF);
 		float	textScale	= mod * 2.5f;
-		script::draw_text("subVersion", .5f, .2f, 0, 5.f - textScale, { 0xFF, 0xFF, 0xFF, opacity }, 1 );
-		script::draw_text("GL HF", .5f, .6f, 0, 3.5f - textScale, { (BYTE) util::random_int(0, 0xFF), (BYTE) util::random_int(0, 0xFF), (BYTE) util::random_int(0, 0xFF), opacity }, 1 );
+		script::draw_text("Sapphire Menu", .5f, .2f, 0, 5.f - textScale, { 0xFF, 0xFF, 0xFF, opacity }, 1 );
+		script::draw_text("Have Fun!", .5f, .6f, 0, 3.5f - textScale, { (BYTE) util::random_int(0, 0xFF), (BYTE) util::random_int(0, 0xFF), (BYTE) util::random_int(0, 0xFF), opacity }, 1 );
 		if(dif > 10000)
 			startup = false;
 	}

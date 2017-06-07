@@ -26,11 +26,11 @@
 scrnVars		CRender::m_screen;
 std::string		CRender::m_szWindowTitle;
 CColor CRender::LAYOUT_COLOR_BACKGROUND		= { 0x38, 0x78, 0xE2, 0xFF };
-CColor CRender::LAYOUT_COLOR_BORDER			= { 0x01, 0x01, 0x01, 0xFF };
+CColor CRender::LAYOUT_COLOR_BORDER			= { 0xC5, 0x10, 0x10, 0xFF };
 CColor CRender::LAYOUT_COLOR_SLIDER_BG		= { 0x28, 0x28, 0x28, 0xFF };
 CColor CRender::LAYOUT_COLOR_SLIDER_BTN		= { 0x73, 0x73, 0x73, 0xFF };
 CColor CRender::LAYOUT_COLOR_ACTIVE_BG		= { 0x85, 0xac, 0xed, 0xFF };
-CColor CRender::LAYOUT_COLOR_SELECTED		= { 0xFF, 0xFF, 0xFF, 0xFF };
+CColor CRender::LAYOUT_COLOR_SELECTED		= { 0x03, 0xD4, 0x1B, 0xFF };
 
 /*
 	//CRender functions
